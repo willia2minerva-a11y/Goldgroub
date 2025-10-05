@@ -10,8 +10,7 @@ const app = express()
 const TOKEN = process.env.PAGE_ACCESS_TOKEN
 const VERIFY_TOKEN = process.env.VERIFY_TOKEN
 const MONGO_URI = process.env.MONGO_URI // ✨ رابط MongoDB من Render
-const BOT_NAME = '@اسم_البوت_الخاص_بك' // مهم: ضع هنا اسم البوت الفعلي مع @
-
+const BOT_NAME = 'بوت'
 // ---------------------------
 // 1. الاتصال بقاعدة البيانات (MongoDB)
 // ---------------------------
